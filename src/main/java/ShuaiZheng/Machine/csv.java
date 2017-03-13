@@ -5,7 +5,6 @@ import org.datavec.api.records.reader.impl.csv.CSVRecordReader;
 import org.datavec.api.split.FileSplit;
 import org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator;
 import org.deeplearning4j.eval.Evaluation;
-import org.deeplearning4j.examples.dataExamples.CSVExample;
 import org.deeplearning4j.nn.conf.MultiLayerConfiguration;
 import org.deeplearning4j.nn.conf.NeuralNetConfiguration;
 import org.deeplearning4j.nn.conf.layers.DenseLayer;
@@ -42,7 +41,6 @@ public class csv {
             int numLinesToSkip = 0;
             String delimiter = ",";
             RecordReader recordReader = new CSVRecordReader(numLinesToSkip, delimiter);
-//        recordReader.initialize(new FileSplit(new ClassPathResource("iris.txt").getFile()));
             recordReader.initialize(new FileSplit(new File(args[0])));
 
 
