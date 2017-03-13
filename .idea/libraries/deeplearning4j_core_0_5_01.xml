@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="deeplearning4j-core-0.5.01">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/src/main/lib/deeplearning4j-core-0.5.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
