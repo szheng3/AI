@@ -23,4 +23,4 @@ To simulate the website, below are required:
 Usage:
 
 
-This Machine Learning algorithm is only used to generate .jar file. So that it could fit in the our Senior Project: https://github.com/szheng3/Senior-Project
+This Machine Learning algorithm is only used to generate .jar file. So that it could fit in our Senior Project: https://github.com/szheng3/Senior-Project
